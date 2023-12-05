@@ -1,0 +1,97 @@
+body{
+    background-image: url(photo/Wave\ \(4\).svg);
+    display: flex;
+    justify-content: center;
+    backdrop-filter:  blur(100px);
+
+}
+.glass{
+    width: 450px;
+    height: 600px;
+    background: rgb(255, 255, 255);
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    border-top: 2px solid rgb(125, 125, 125);
+    border-left: 2px solid rgb(125, 125, 125);
+    border-right: 2px solid rgb(125, 125, 125) ;
+    border-bottom: 2px solid rgb(125, 125, 125) ;
+}
+.glass .content .circle{
+    width: 65px;
+    height: 65px;
+    border-radius: 65px;
+    background-color: blueviolet;
+    justify-content: center;
+    display: flex;
+    margin: 1cm;
+}
+.glass .content  .stick{
+    width: 90px;
+    height: 35px;
+    background: linear-gradient(to right, rgb(29, 29, 211), deepskyblue);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+*{
+    font-family: sans-serif;
+}
+h1{
+    color: blueviolet;
+}
+h6{
+    color: blueviolet;
+}
+p{
+    margin: auto;
+    color: white;
+}
+h1{
+    margin-left: 1cm;
+    margin-bottom: -0.5cm;
+}
+h6{
+    margin-left: 1cm;
+    -bottom: 1cm;
+}
+h2{
+    color: white;
+}
+.glass .content  .box-1{
+    width: 150px;
+    height: 25px;
+    border-radius: 15px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    margin-top: 1.5cm;
+    background: linear-gradient(to right, deepskyblue, blueviolet);
+    display: flex;
+    justify-content: center;
+}  
+
+.glass .content  .box-2{
+    width: 150px;
+    height: 25px;
+    border-radius: 15px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    margin-left: 7.9cm;
+    margin-top: -0.7cm;
+    background: linear-gradient(to right, deepskyblue, blueviolet);
+    display: flex;
+    justify-content: center;
+}
+a{
+    margin: auto;
+    color: white;
+    
+}

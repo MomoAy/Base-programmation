@@ -1,0 +1,78 @@
+body{
+    background-color: thistle;
+}
+.bulle-1{
+    border-radius: 25px;
+    width: 140px;
+    height: 40px;
+    border-color: red;
+    background-color:beige ;
+    display: flex;
+    justify-content: center;
+    margin-left: 41cm;
+    animation-duration: 3s;
+    animation-name: bul;
+    background : linear-gradient(to right,thistle, white) ;
+
+}
+.bulle-2{
+    border-radius: 25px;
+    width: 140px;
+    height: 40px;
+    border-color: red;
+    background : linear-gradient(to right,thistle, white) ;
+    display: flex;
+    justify-content: center;
+    margin-left: 45cm;
+    margin-top: -1cm;
+}
+a{
+    margin: auto;
+    color: blueviolet;
+}
+h1{
+    font-size: 4cm;
+    margin-bottom: -0.9cm;
+    color: whitesmoke;
+}
+h2{
+    margin-bottom: 1cm;
+    color: whitesmoke;
+}
+h3{
+    color: whitesmoke;
+}
+.support-1{
+    width: 400px;
+    height: 350px;
+    backdrop-filter: white blur(200px);
+    background-color: white;
+    border-radius: 25px;
+    margin-left: 2cm;
+}
+img{
+    width: 400px;
+    height: 300px;
+    border-radius: 25px;
+}
+.support-2{
+    width: 400px;
+    height: 350px;
+    backdrop-filter: white blur(200px);
+    background-color: white;
+    border-radius: 25px;
+    margin-left: 18cm;
+    margin-top: -9.5cm;
+}
+.support-3{
+    width: 400px;
+    height: 350px;
+    backdrop-filter: white blur(200px);
+    background-color: white;
+    border-radius: 25px;
+    margin-left: 36cm;
+    margin-top: -9.5cm;
+}
+
+
+

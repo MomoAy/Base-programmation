@@ -1,0 +1,17 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.support{
+    background-image: url(photo/Iphone\ wallpaper\ –\ Iphone\ wallpaper\ hd\ 4k.jpeg);
+    width: 500px;
+    height: 900px;
+    border-radius: 25px;
+}
+p{
+    color: white;
+}
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

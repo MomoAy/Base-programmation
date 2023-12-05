@@ -1,0 +1,38 @@
+body{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-image: url(photo/vallée.png);
+    backdrop-filter: blur(2px);
+}
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.card {
+    width: 500px;
+    height: 600px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(2000px);
+    border-radius: 25px;
+    border-top: 1px solid rgb(125, 125, 125);
+    border-left: 1px solid rgb(125, 125, 125);
+    border-right: 1px solid rgb(125, 125, 125) ;
+    border-bottom: 1px solid rgb(125, 125, 125) ;
+
+}
+.card .content .picture-1 img {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+.card .content .picture-1  {
+    width: 100px;
+    height: 100px;
+    
+   
+}
+.card .content .picture {
+    width: 20px;
+    height: 9px;
+    margin-left: 2cm;
+}
